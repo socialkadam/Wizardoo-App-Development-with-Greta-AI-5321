@@ -53,7 +53,7 @@ const HomePage = () => {
               transition={{ duration: 0.6 }}
             >
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                Find Your Perfect
+                Find Your Perfect{' '}
                 <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent block">
                   Wizard Match
                 </span>
@@ -119,8 +119,8 @@ const HomePage = () => {
               Four Types of Wisdom
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our intelligent matching system identifies your communication archetype 
-              to connect you with the perfect wizard for your journey.
+              Our intelligent matching system identifies your communication archetype to connect you 
+              with the perfect wizard for your journey.
             </p>
           </div>
 
@@ -160,8 +160,7 @@ const HomePage = () => {
               Ready to Find Your Wizard?
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Take our 2-minute quiz to discover your archetype and get matched 
-              with wizards who speak your language.
+              Take our 2-minute quiz to discover your archetype and get matched with wizards who speak your language.
             </p>
             <Link
               to="/quiz/seeker"
